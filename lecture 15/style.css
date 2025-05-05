@@ -1,0 +1,22 @@
+
+
+.cards {
+  border: 2px solid red;
+  display: flow-root;
+}
+
+.cards:nth-child(3){
+    background-color: aqua;
+    clear: left;
+    /* clear usage */
+}
+
+#sunset {
+  float: left;
+  height: 280px;
+  width: 280px;
+}
+
+.card {
+  border: 2px solid blue;
+}
