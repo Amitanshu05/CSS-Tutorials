@@ -1,0 +1,13 @@
+/* img{
+    /* filter: blur(5px);
+}*/
+.img1 {
+    filter: brightness(122%) contrast(0.5);
+  }
+  .img2 {
+    filter: sepia();
+  }
+  .img3 {
+    filter: grayscale();
+  }
+  /* we dont use filters much in html websites. */
