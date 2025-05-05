@@ -1,0 +1,40 @@
+/* .box:first-child{
+    background-color: red;
+}
+
+.box::first-line{
+    color: red;
+} */
+
+/* .boxes *{
+    color: blue;
+    border: 2px solid black;
+}
+
+p , a , .box ,[data-color="primary"]{
+    margin-top: 14px;
+    padding: 54px;
+} */
+/* 
+.box:nth-child(even){
+    background-color: blue;
+} */
+.boxes::before {
+  content: "amitanshu amitanshu amitanshu ";
+  color: red;
+}
+.boxes::after {
+  content: "amitanshu amitanshu amitanshu ";
+  color: gray;
+}
+::selection {
+  color: aqua;
+  background-color: blanchedalmond;
+}
+.box::first-letter{
+    color: peru;
+}
+input::placeholder{
+    color: aquamarine;
+    font-size: 12px;
+}
