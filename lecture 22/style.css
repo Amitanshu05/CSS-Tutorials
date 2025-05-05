@@ -1,0 +1,18 @@
+.container {
+  height: 634px;
+  width: 688px;
+  border: 2px solid black;
+  /* background-color: aquamarine;
+  background-position: center center; */
+
+  background-image: url("https://imgs.search.brave.com/SDmMp6QK8BpnygU8TIA6Gj8OpfrwxZ5xomIl51gjqhQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9keWwz/NDdoaXd2M2N0LmNs/b3VkZnJvbnQubmV0/L2FwcC91cGxvYWRz/LzIwMjUvMDMvNTMx/Mzk5Njk0MjRfNTg4/YzAyZmJkY19vLXNj/YWxlZC5qcGc");
+}
+img {
+  height: 634px;
+  width: 688px;
+  object-fit: contain;
+  /* object-position: top right; */
+
+  object-position: 50% 50% ;
+  /* object-fit: contain; */
+}
